@@ -4,7 +4,7 @@ while (true)
     Console.Write("Введите день недели: ");
     if (int.TryParse(Console.ReadLine(), out number))
         if (number > 0 && number <8)
-            break;
+        break;
     Console.WriteLine("Ошибка, в неделе 7 дней!!!!");
 }
 if (number > 5)
