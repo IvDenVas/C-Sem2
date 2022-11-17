@@ -3,7 +3,8 @@ while (true)
 {
     Console.WriteLine("Введите число: ");
     if (int.TryParse(Console.ReadLine(), out num))
-        break;
+        if (num > 0)
+            break;
     Console.WriteLine("Ошибка ввода");
 }
 int num1 = 0;
