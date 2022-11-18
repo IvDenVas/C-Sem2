@@ -29,7 +29,7 @@ else
     }
 Console.Write($"{num} -> {num1}");
 }
-
+Console,Write()
       
 
     
